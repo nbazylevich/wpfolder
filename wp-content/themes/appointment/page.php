@@ -19,7 +19,7 @@ get_template_part('index','banner'); ?>
 			<!-- /Blog Area -->			
 			<!--Sidebar Area-->
 			<div class="col-md-4">
-				<?php get_sidebar(); ?>
+<!--				--><?php //get_sidebar(); ?>
 			</div>
 			<!--Sidebar Area-->
 		</div>
