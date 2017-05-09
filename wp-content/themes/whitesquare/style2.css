@@ -12,12 +12,14 @@ body {
 }
 
 #header_strip {
-	height: 70px
+	height: 70px;
+	background-color: #67a8d1;
 }
 
 #menu {
 	background-color: #f1a039;
 	border-radius: 5px;
+	font-size: 0px;
 }
 
 #menu ul {
@@ -30,6 +32,7 @@ body {
 	font-size: 18px;
 	color: #393939;
 	text-decoration: none;
+	border-right: 1px solid #fbbe71;
 }
 
 #menu li:first-child a {
@@ -51,7 +54,20 @@ body {
 #catalog {
 	padding: 20px;
 }
-
+.good{
+	padding: 10px;
+}
+.good:hover{
+	outline: 1px solid lightgrey;
+	background-color: white;
+	cursor: pointer;
+	box-shadow: 5px 5px 10px -2px lightgrey;
+}
+.imgBlock{
+	background-color: white;
+	border: 3px solid lightgrey;
+	padding: 3px;
+}
 .goodImg {
 	width: 100%;
 }
