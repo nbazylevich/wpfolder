@@ -1,0 +1,93 @@
+body {
+	background-color: #98c3e0 !important;
+}
+
+.inlineBlock {
+	display: inline-block;
+}
+
+.content {
+	width: 1000px;
+	margin: auto;
+}
+
+#header_strip {
+	height: 70px
+}
+
+#menu {
+	background-color: #f1a039;
+	border-radius: 5px;
+}
+
+#menu ul {
+	padding: 0;
+}
+
+#menu a {
+	display: block;
+	padding: 15px;
+	font-size: 18px;
+	color: #393939;
+	text-decoration: none;
+}
+
+#menu li:first-child a {
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+#menu a:hover {
+	background-color: #fbbe71;
+}
+
+#main {
+	padding: 15px;
+	background-color: rgba(255, 255, 255, 0.84);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#catalog {
+	padding: 20px;
+}
+
+.goodImg {
+	width: 100%;
+}
+
+.nameGood {
+	font-size: 20px;
+}
+
+.priceAndBuy {
+	font-size: 18px;
+}
+
+.buttonBuy {
+	background-color: #f1a039;
+	color: white;
+	border: 1px solid #f1a039;
+	border-radius: 3px;
+	box-shadow: 5px 5px 10px -2px lightgrey;
+}
+
+.formItems {
+	margin-bottom: 20px;
+}
+
+.bold-text {
+	font-weight: bold;
+}
+
+.width-100 {
+	width: 100%;
+}
+
+footer {
+	height: 50px;
+	line-height: 50px;
+	background-color: #66a7d1;
+}
+
+
