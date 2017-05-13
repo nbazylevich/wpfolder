@@ -1,3 +1,7 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
 body {
 	background-color: #98c3e0 !important;
 }
@@ -54,20 +58,24 @@ body {
 #catalog {
 	padding: 20px;
 }
-.good{
+
+.good {
 	padding: 10px;
 }
-.good:hover{
+
+.good:hover {
 	outline: 1px solid lightgrey;
 	background-color: white;
 	cursor: pointer;
 	box-shadow: 5px 5px 10px -2px lightgrey;
 }
-.imgBlock{
+
+.imgBlock {
 	background-color: white;
 	border: 3px solid lightgrey;
 	padding: 3px;
 }
+
 .goodImg {
 	width: 100%;
 }

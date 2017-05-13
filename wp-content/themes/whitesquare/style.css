@@ -7,3 +7,125 @@ Author URI: ваш-URI
 Version: 1.0
 */
 
+html, body{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #98c3e0 !important;
+}
+
+.inlineBlock {
+	display: inline-block;
+}
+
+.content {
+	width: 1000px;
+	margin: auto;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+#header_strip {
+	height: 70px;
+	background-color: #67a8d1;
+}
+
+#menu {
+	background-color: #f1a039;
+	border-radius: 5px;
+	font-size: 0px;
+}
+
+#menu ul {
+	padding: 0;
+}
+
+#menu a {
+	display: block;
+	padding: 15px;
+	font-size: 18px;
+	color: #393939;
+	text-decoration: none;
+	border-right: 1px solid #fbbe71;
+}
+
+#menu li:first-child a {
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+#menu a:hover {
+	background-color: #fbbe71;
+}
+
+#main {
+	padding: 15px;
+	background-color: rgba(255, 255, 255, 0.84);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#catalog {
+	padding: 20px;
+}
+
+.good {
+	padding: 10px;
+}
+
+.good:hover {
+	outline: 1px solid lightgrey;
+	background-color: white;
+	cursor: pointer;
+	box-shadow: 5px 5px 10px -2px lightgrey;
+}
+
+.imgBlock {
+	background-color: white;
+	border: 3px solid lightgrey;
+	padding: 3px;
+}
+
+.goodImg {
+	width: 100%;
+}
+
+.nameGood {
+	font-size: 20px;
+}
+
+.priceAndBuy {
+	font-size: 18px;
+}
+
+.buttonBuy {
+	background-color: #f1a039;
+	color: white;
+	border: 1px solid #f1a039;
+	border-radius: 3px;
+	box-shadow: 5px 5px 10px -2px lightgrey;
+}
+
+.formItems {
+	margin-bottom: 20px;
+}
+
+.bold-text {
+	font-weight: bold;
+}
+
+.width-100 {
+	width: 100%;
+}
+
+footer {
+	height: 50px;
+	line-height: 50px;
+	background-color: #66a7d1;
+}
+
+
+
