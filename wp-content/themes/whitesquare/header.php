@@ -2,9 +2,7 @@
 <html ng-app="myApp">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>">
-    <link rel="stylesheet" href="style2.css">
-    <link href="bootstrap-3.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <?php wp_head() ?>
 </head>
 <body ng-controller="mainCtrl">
 

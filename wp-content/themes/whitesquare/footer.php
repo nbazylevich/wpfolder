@@ -7,8 +7,8 @@
 </footer>
 
 
-<script src="angular.js"></script>
-<script src="mainCtrl.js"></script>
+<!--<script src="angular.js"></script>-->
+<!--<script src="mainCtrl.js"></script>-->
 
 
 </body>
