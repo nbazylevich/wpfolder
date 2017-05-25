@@ -10,3 +10,14 @@ function whitesquare_scripts(){
     wp_enqueue_script('mainCtrl', get_template_directory_uri() . '/mainCtrl.js' );
     wp_enqueue_script('bootstrap.min', get_template_directory_uri() . '/bootstrap/dist/js/bootstrap.min.js' );
 }
+
+//Регистрация меню
+if(function_exists('register_nav_menus')){
+    register_nav_menus(array('custom-menu' =>__('custom menu')));
+}
+function custom_menu(){
+    echo '<ul>';
+    wp_list_pages('title_li=&');
+    echo '</ul>';
+}
+
