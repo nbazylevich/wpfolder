@@ -7,7 +7,7 @@
 <!---Header-->
 <?php get_header()?>
 
-<div class="content">
+<div class="content main-content">
     <div  id="main">
 
         Форма обратной связи
